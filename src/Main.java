@@ -19,23 +19,23 @@ public class Main {
 //        100 = 10
 //        101 = 10, 11
 //        122 = 11,
-//        for(int i=1;i<=1000000;i++){
-//            if (isPrime(i)) {
-//                System.out.println(i);
-//            }
-//        }
-//
-//        Instant ends = Instant.now();
-//        System.out.println(Duration.between(starts, ends));
-//    }
-//
-//    static boolean isPrime(int n){
-//        for(int i = 2; i <= Math.sqrt(n); i++){
-//            if(n % i == 0){
-//                return false;
-//            }
-//        }
-//        return true;
+        for(int i=1;i<=100;i++){
+            if (isPrime(i)) {
+                System.out.println(i);
+            }
+        }
+
+        Instant ends = Instant.now();
+    }
+
+    static boolean isPrime(int n) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 
 
         Scanner scr= new Scanner(System.in);
@@ -69,15 +69,14 @@ public class Main {
 
         System.out.println("average of your "+n+" numbers is "+total/n);*/
 
-        for(int i=5;i>=1;i--){
-            System.out.println();
-            for(int j=0;j<i;j++){
-                System.out.print("*");
-            }
+//        for(int i=5;i>=1;i--){
+//            System.out.println();
+//            for(int j=0;j<i;j++){
+//                System.out.print("*");
+//            }
+//        }
 
 
-
-        }
 
 
 
